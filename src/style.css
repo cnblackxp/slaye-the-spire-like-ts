@@ -1,0 +1,68 @@
+.game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.game,
+.log {
+  width: 50vw;
+}
+
+#character-info {
+  color: blue;
+}
+
+#enemies-container {
+  color: red;
+}
+
+.enemy-info {
+  margin-bottom: 10px;
+  border: 1px solid red;
+  padding: 5px;
+  width: 150px;
+}
+
+.dead {
+  border: 1px solid gray;
+  color: gray;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+
+
+.log-ui {
+  overflow-y: scroll;
+  width: 400px;
+  height: 600px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#cards-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue
+}

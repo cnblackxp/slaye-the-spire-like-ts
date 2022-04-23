@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slay the Spire</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+
+  <div class="game-container">
+    <div class="game">
+      <div class="info-container">
+        <div id="character-info">
+          <div>Character</div>
+          <div>hp <span id="character-hp">50/50</span></div>
+          <div>defense <span id="character-defense">0</span></div>
+          <div>mp <span id="character-mp">3/3</span></div>
+          <br>
+          <div>Deck <span id="character-deck">10</span></div>
+          <div>Discard <span id="character-discard">0</span></div>
+          <div>Exahust <span id="character-exhaust">0</span></div>
+          <br>
+          <div id="character-turn-actions">
+            <button id="end-turn-button">end turn</button>
+            <button id="start-game-button">restart game</button>
+          </div>
+        </div>
+        <div id="enemies-container">
+          <!-- <div class="enemy-info" id="enemy-info">
+            <div>Enemy</div>
+            <div>hp <span id="enemy-hp">10/10</span></div>
+            <div>defense <span id="enemy-defense">0</span></div>
+            <div>intent (<span id="enemy-intent">atk 3</span>)</div>
+          </div>
+
+          <div class="enemy-info" id="enemy-info_TEST">
+            <div>Enemy</div>
+            <div>hp <span id="enemy-hp">10/10</span></div>
+            <div>defense <span id="enemy-defense">0</span></div>
+            <div>intent (<span id="enemy-intent">atk 3</span>)</div>
+          </div> -->
+        </div>
+        
+      </div>
+
+
+      <div id="cards-container">
+        <!-- <div class="card" id="card_name_{position}">
+          <div class="card-title">Title (<span class="card-mp">1</span>)</div>
+          <div class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint laudantium suscipit excepturi odit</div>
+          <div>
+            <button>Play</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="log">
+      <h2>Log</h2>
+      <div class="log-ui">
+        <ul id="log-container">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="./src/Main.ts"></script>
+
+
+</body>
+
+</html>
